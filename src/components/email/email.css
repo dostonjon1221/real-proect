@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+   
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.input-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.forms-item{
+    width: 350px;
+    background: rgba(86, 89, 100, 0.24);
+border-radius:8px ;
+}
+.email-item{
+    height: 40px;
+    width: 320px;
+    background: rgba(201, 204, 209, 0.24);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    
+
+}
+.btn-item{
+    margin-top: 30px;
+}

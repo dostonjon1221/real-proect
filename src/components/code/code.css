@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.code-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.places input{
+    text-align: center;
+    height: 56px;
+    margin: 10px;
+    margin-top: 50px;
+width: 47px;
+
+
+}
+.btn-item{
+    width: 150px;
+    background: blue;
+    height: 53px;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+.btn-item:hover{
+    opacity: .8;
+}

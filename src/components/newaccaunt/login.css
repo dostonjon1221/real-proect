@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+h1{
+   
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.36000001430511475px;
+text-align: center;
+
+}
+p{
+    
+font-size: 15px;
+
+line-height: 24px;
+letter-spacing: -0.23999999463558197px;
+text-align: center;
+
+}
+.avatar-items{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.avatar{
+    width: 96px;
+    height: 96px;
+    background-color:
+    #F2F3F5;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.camera{
+color: 
+#C8C9CC;
+height: 28.5px;
+width: 32px;
+transition: 500ms ease;
+}
+.camera:hover{
+    cursor: pointer;
+    color: rgb(30, 29, 29);
+    opacity: .7;
+    transform: scale(1.1);
+}
+ .inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.input{
+    margin-top: 20px;
+}
+.btns{
+    margin-top: 30px;
+} 
+
+.inputbox {
+    position: relative;
+    width: 360px;
+    height: 56px;
+    margin-bottom: 30px;
+  }
+   .inputbox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid grey  ;
+    outline: none;
+    
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background-color: 
+#C9CCD1
+;
+  }
+   .inputbox:last-child {
+    margin-bottom: 0;
+  }
+   .inputbox span {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 1em;
+    transition: 0.6s;
+    font-family: sans-serif;
+  }
+   .inputbox input:focus ~ span,
+   .inputbox input:valid ~ span
+    {
+    transform: translateX(-13px) translateY(-35px);
+    font-size: 1em;
+  }
+  .inputbox [type="button"] {
+    width: 50%;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+  }
+   .inputbox:hover [type="button"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+  }
+  .btn{
+    width: 100px;
+    
+    background: blue;
+    color: wheat;
+  }
+  .btn:hover{
+    width: 100px;
+    background: blue;
+    opacity: .8;
+    color: white;
+  }
+  
